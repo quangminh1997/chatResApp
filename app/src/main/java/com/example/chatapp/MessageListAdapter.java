@@ -82,6 +82,7 @@ public class MessageListAdapter extends RecyclerView.Adapter{
     void appendMessage(UserMessage message) {
 
         mMessageList.add(message);
+
         this.notifyDataSetChanged();
 
     }
